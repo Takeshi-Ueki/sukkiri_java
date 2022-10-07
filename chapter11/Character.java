@@ -15,7 +15,7 @@ public abstract class Character {
 	}
 	public Character(String name) {
 		this(name, 100);
-	}	
+	}
 	
 	public abstract void attack(Matango m);
 }
