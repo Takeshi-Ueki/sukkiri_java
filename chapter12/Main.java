@@ -24,13 +24,13 @@ public class Main {
 		
 		Character[] c2 = new Character[5];
 		
+		c2[0] = new Wizard();
 		c2[1] = new Hero();
 		c2[2] = new Hero();
 		c2[3] = new Wizard();
 		c2[4] = new Wizard();
-		c2[5] = new Wizard();
 		
-		for (Character ch : c2) {
+		for (Character ch : c2 ) {
 			ch.hp += 50;
 		}
 	}
